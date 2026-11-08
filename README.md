@@ -6,7 +6,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 ![Home screen](docs/home.png)
 
-> The interface is currently in Serbian only.
+> The interface is available in English and Serbian.
 > Tested on an Amlogic S905X3 box running Android TV 9. Other devices may work, but have not been tested.
 
 ## Features
@@ -66,6 +66,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 ![Settings](docs/settings.png)
 
 ### System
+- English and Serbian interface, following the Android language or chosen manually
 - Sleep timer, sleep now and restart
 - Shortcuts to network and Android settings
 - Bluetooth menu with quick pairing

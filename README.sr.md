@@ -6,6 +6,7 @@
 
 ![Početni ekran](docs/home.png)
 
+> Interfejs je dostupan na srpskom i engleskom.
 > Testirano na Amlogic S905X3 boxu sa Android TV 9. Na drugim uređajima može da radi, ali nije provereno.
 
 ## Mogućnosti
@@ -65,6 +66,7 @@
 ![Podešavanja](docs/settings.png)
 
 ### Sistem
+- Interfejs na srpskom i engleskom, po jeziku Androida ili po izboru
 - Tajmer za spavanje, spavanje odmah i restart
 - Prečice do mreže i Android podešavanja
 - Bluetooth meni sa brzim uparivanjem
