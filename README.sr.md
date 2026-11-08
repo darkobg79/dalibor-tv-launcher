@@ -53,13 +53,13 @@
 - Automatski dnevni backup kad ima izmena, čuva poslednjih 5 i kopira ih na USB ako je ubačen
 - Vraćanje na podrazumevana podešavanja
 
-![Backup i vraćanje](docs/backup.png)
+![Backup i ažuriranja](docs/backup.png)
 
 ### Izgled
 - Jednobojne i prelazne teme ili tvoje slike iz `/sdcard/Pictures/Pozadine`
 - Automatska dnevna i noćna tema, sa izborom sati; ručno izabrana tema važi do sledeće promene
 - Ugrađen čuvar ekrana sa satom, prognozom i smenom pozadina
-- Meniji u bočnom panelu, sa putanjom, ikonama i prekidačima
+- Meniji u bočnom panelu, sa sekcijama, putanjom, ikonama i prekidačima
 
 ![Dan/noć tema](docs/daynight.png)
 
@@ -76,6 +76,19 @@
 - Tasteri u boji i posebni tasteri daljinskog po izboru (traži prateći servis, vidi ispod)
 
 ![Dijagnostika](docs/diagnostics.png)
+
+## Podešavanja
+
+| Grupa | Šta je u njoj |
+|---|---|
+| **Početni ekran** | Dock i redosled aplikacija, sakrivene aplikacije, Preview, Nastavi gledanje |
+| **Izgled** | Pozadina, dnevna i noćna tema, sjaj naslova, pozdrav, čuvar ekrana |
+| **Statistika i prognoza** | Statistika i njen prikaz, jedinica mreže, grad i stil prognoze |
+| **Daljinski** | Tasteri u boji, tasteri EON daljinskog |
+| **Backup i ažuriranja** | Čuvanje u internu memoriju ili na USB, automatski backup, vraćanje, ažuriranja |
+| **Sistem** | Napajanje, mreža, jezik, Android podešavanja, dijagnostika |
+
+Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja.
 
 ## Instalacija
 

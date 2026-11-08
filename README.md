@@ -53,13 +53,13 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Automatic daily backup when the configuration has changed, keeping the last 5, also copied to USB when one is inserted
 - Reset to defaults
 
-![Backup and restore](docs/backup.png)
+![Backup and updates](docs/backup.png)
 
 ### Look and feel
 - Solid and gradient themes, or your own wallpapers from `/sdcard/Pictures/Pozadine`
 - Automatic day and night themes with selectable hours; a manually chosen theme stays until the next change
 - Built-in screensaver with clock, weather and rotating wallpapers
-- Side panel menus with breadcrumbs, icons and switches
+- Side panel menus with sections, breadcrumbs, icons and switches
 
 ![Day and night theme](docs/daynight.png)
 
@@ -76,6 +76,19 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Configurable color keys and special remote keys (requires the companion service below)
 
 ![Diagnostics](docs/diagnostics.png)
+
+## Settings
+
+| Group | What you will find there |
+|---|---|
+| **Home screen** | Dock and app order, hidden apps, Preview, Continue watching |
+| **Appearance** | Wallpaper, day and night theme, title glow, greeting, screensaver |
+| **Stats and forecast** | Stats and how they look, network unit, forecast city and style |
+| **Remote** | Color keys, EON remote keys |
+| **Backup and updates** | Save to internal storage or USB, automatic backup, restore, updates |
+| **System** | Power, network, language, Android settings, diagnostics |
+
+Profiles have their own icon on the home screen, next to Settings.
 
 ## Installation
 
