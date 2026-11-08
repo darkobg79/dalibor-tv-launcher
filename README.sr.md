@@ -56,8 +56,11 @@
 
 ### Izgled
 - Jednobojne i prelazne teme ili tvoje slike iz `/sdcard/Pictures/Pozadine`
+- Automatska dnevna i noćna tema, sa izborom sati; ručno izabrana tema važi do sledeće promene
 - Ugrađen čuvar ekrana sa satom, prognozom i smenom pozadina
 - Meniji u bočnom panelu, sa putanjom, ikonama i prekidačima
+
+![Dan/noć tema](docs/daynight.png)
 
 ![Podešavanja](docs/settings.png)
 
@@ -65,9 +68,12 @@
 - Tajmer za spavanje, spavanje odmah i restart
 - Prečice do mreže i Android podešavanja
 - Bluetooth meni sa brzim uparivanjem
-- Provera novih verzija na GitHub Releases; instalira se samo kad potvrdiš
+- Provera novih verzija na GitHub Releases, sa listom promena; instalira se samo kad potvrdiš
+- Dijagnostika: firmware, vreme rada, memorija, temperatura, mreža, Bluetooth, USB i dozvole
 - Održava vezu sa uparenim Bluetooth LE daljinskim, za boxove čiji se BT čip sam ne povezuje ponovo
 - Tasteri u boji i posebni tasteri daljinskog po izboru (traži prateći servis, vidi ispod)
+
+![Dijagnostika](docs/diagnostics.png)
 
 ## Instalacija
 

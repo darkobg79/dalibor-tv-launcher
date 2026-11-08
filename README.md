@@ -57,8 +57,11 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 ### Look and feel
 - Solid and gradient themes, or your own wallpapers from `/sdcard/Pictures/Pozadine`
+- Automatic day and night themes with selectable hours; a manually chosen theme stays until the next change
 - Built-in screensaver with clock, weather and rotating wallpapers
 - Side panel menus with breadcrumbs, icons and switches
+
+![Day and night theme](docs/daynight.png)
 
 ![Settings](docs/settings.png)
 
@@ -66,9 +69,12 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Sleep timer, sleep now and restart
 - Shortcuts to network and Android settings
 - Bluetooth menu with quick pairing
-- Update check against GitHub Releases; an update is installed only after you confirm it
+- Update check against GitHub Releases, with a list of what is new; an update is installed only after you confirm it
+- Diagnostics screen: firmware, uptime, memory, storage, temperature, network, Bluetooth, USB and permissions
 - Keeps paired Bluetooth LE remotes connected, for boxes whose Bluetooth chip does not reconnect them on its own
 - Configurable color keys and special remote keys (requires the companion service below)
+
+![Diagnostics](docs/diagnostics.png)
 
 ## Installation
 
