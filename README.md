@@ -49,6 +49,8 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Restore from internal storage or USB
 - Shows which apps are missing on the device before restoring; they are simply left out of the dock
 - The current state is saved automatically before every restore or reset
+- Save to a USB drive, directly from the menu
+- Automatic daily backup when the configuration has changed, keeping the last 5, also copied to USB when one is inserted
 - Reset to defaults
 
 ![Backup and restore](docs/backup.png)
@@ -64,6 +66,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Sleep timer, sleep now and restart
 - Shortcuts to network and Android settings
 - Bluetooth menu with quick pairing
+- Update check against GitHub Releases; an update is installed only after you confirm it
 - Keeps paired Bluetooth LE remotes connected, for boxes whose Bluetooth chip does not reconnect them on its own
 - Configurable color keys and special remote keys (requires the companion service below)
 
@@ -80,6 +83,8 @@ Installed this way, the launcher works as a normal app. Some features need more:
 |---|---|
 | Preview row with content from all apps | Installed in `/system/priv-app` with `ACCESS_ALL_EPG_DATA` |
 | Restart and screensaver selection | Installed in `/system/priv-app` with `REBOOT` and `WRITE_SECURE_SETTINGS` |
+| Saving to USB | Installed in `/system/priv-app` with `WRITE_MEDIA_STORAGE` |
+| Installing updates without a system prompt | Installed in `/system/priv-app` with `INSTALL_PACKAGES` |
 | Sleep now and sleep timer | `adb shell dpm set-active-admin net.dalibor.home/.SleepAdmin` |
 | Color keys and special remote keys | A root key service on the box, which is not part of this APK |
 
@@ -94,7 +99,11 @@ Installed this way, the launcher works as a normal app. Some features need more:
 
 ## Privacy
 
-The launcher has no ads, analytics or account. Its only network traffic is the weather forecast request to Open-Meteo. Backups stay on your device or USB drive.
+The launcher has no ads, analytics or account. Its only network traffic is the weather forecast request to Open-Meteo and the daily update check against GitHub. Backups stay on your device or USB drive.
+
+## License
+
+Free to use and to share unmodified. All rights reserved, see [LICENSE](LICENSE).
 
 ## Credits
 

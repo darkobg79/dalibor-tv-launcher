@@ -48,6 +48,8 @@
 - Vraćanje iz interne memorije ili sa USB-a
 - Pre vraćanja prikazuje kojih aplikacija nema na uređaju; one samo izostanu iz docka
 - Trenutno stanje se samo sačuva pre svakog vraćanja ili reseta
+- Čuvanje na USB direktno iz menija
+- Automatski dnevni backup kad ima izmena, čuva poslednjih 5 i kopira ih na USB ako je ubačen
 - Vraćanje na podrazumevana podešavanja
 
 ![Backup i vraćanje](docs/backup.png)
@@ -63,6 +65,7 @@
 - Tajmer za spavanje, spavanje odmah i restart
 - Prečice do mreže i Android podešavanja
 - Bluetooth meni sa brzim uparivanjem
+- Provera novih verzija na GitHub Releases; instalira se samo kad potvrdiš
 - Održava vezu sa uparenim Bluetooth LE daljinskim, za boxove čiji se BT čip sam ne povezuje ponovo
 - Tasteri u boji i posebni tasteri daljinskog po izboru (traži prateći servis, vidi ispod)
 
@@ -79,6 +82,8 @@ Ovako instaliran, launcher radi kao obična aplikacija. Za neke mogućnosti treb
 |---|---|
 | Preview red sa sadržajem svih aplikacija | Instalacija u `/system/priv-app` uz `ACCESS_ALL_EPG_DATA` |
 | Restart i izbor čuvara ekrana | Instalacija u `/system/priv-app` uz `REBOOT` i `WRITE_SECURE_SETTINGS` |
+| Čuvanje na USB | Instalacija u `/system/priv-app` uz `WRITE_MEDIA_STORAGE` |
+| Instalacija ažuriranja bez sistemskog prozora | Instalacija u `/system/priv-app` uz `INSTALL_PACKAGES` |
 | Spavanje odmah i tajmer | `adb shell dpm set-active-admin net.dalibor.home/.SleepAdmin` |
 | Tasteri u boji i posebni tasteri | Root servis za tastere na boxu, koji nije deo ovog APK-a |
 
@@ -93,7 +98,11 @@ Ovako instaliran, launcher radi kao obična aplikacija. Za neke mogućnosti treb
 
 ## Privatnost
 
-Launcher nema reklame, analitiku ni nalog. Jedini mrežni saobraćaj je zahtev za prognozu prema Open-Meteo servisu. Backupi ostaju na tvom uređaju ili USB-u.
+Launcher nema reklame, analitiku ni nalog. Jedini mrežni saobraćaj je zahtev za prognozu prema Open-Meteo servisu i dnevna provera novih verzija na GitHubu. Backupi ostaju na tvom uređaju ili USB-u.
+
+## Licenca
+
+Besplatno za korišćenje i deljenje u neizmenjenom obliku. Sva prava zadržana, vidi [LICENSE](LICENSE).
 
 ## Zasluge
 
