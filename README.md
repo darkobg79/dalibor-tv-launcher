@@ -4,7 +4,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 **English** · [Srpski](README.sr.md)
 
-![Home screen](docs/home.png)
+![Home screen](docs/en/home.png)
 
 > The interface is available in English and Serbian.
 > Tested on an Amlogic S905X3 box running Android TV 9. Other devices may work, but have not been tested.
@@ -27,14 +27,14 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Hide apps and restore them from a dedicated tile
 - Long-press OK for the app menu: open, move, replace or add to dock, hide, info, uninstall
 
-![All apps](docs/apps.png)
+![All apps](docs/en/apps.png)
 
 ### Weather
 - Current conditions, next 24 hours and 7-day forecast
 - Selectable city and three card styles
 - Data from [Open-Meteo](https://open-meteo.com/), with no account or API key
 
-![Weather forecast](docs/weather.png)
+![Weather forecast](docs/en/weather.png)
 
 ### Profiles
 - Local profiles such as "Mine", "Family" or "Kids"
@@ -42,7 +42,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Eight colored profile icons, always visible on the home screen
 - These are launcher profiles only: they are not Android users and do not separate accounts inside apps
 
-![Profile icons](docs/profiles.png)
+![Profile icons](docs/en/profiles.png)
 
 ### Backup and restore
 - One-click export of the whole configuration to a ZIP file, including the current wallpaper
@@ -53,7 +53,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Automatic daily backup when the configuration has changed, keeping the last 5, also copied to USB when one is inserted
 - Reset to defaults
 
-![Backup](docs/backup.png)
+![Backup](docs/en/backup.png)
 
 ### Updates
 - A dedicated menu in Settings, also reachable from About launcher in the System menu
@@ -62,7 +62,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - What's new: the list of changes from the latest release notes
 - A new APK is verified by SHA-256 and signature, and installed only after you confirm it
 
-![Updates](docs/updates.png)
+![Updates](docs/en/updates.png)
 
 ### Look and feel
 - Solid and gradient themes, or your own wallpapers from `/sdcard/Pictures/Pozadine`
@@ -70,9 +70,9 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Built-in screensaver with clock, weather and rotating wallpapers
 - Side panel menus with sections, breadcrumbs, icons and switches
 
-![Day and night theme](docs/daynight.png)
+![Day and night theme](docs/en/daynight.png)
 
-![Settings](docs/settings.png)
+![Settings](docs/en/settings.png)
 
 ### System
 - English and Serbian interface, following the Android language or chosen manually
@@ -84,7 +84,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Keeps paired Bluetooth LE remotes connected, for boxes whose Bluetooth chip does not reconnect them on its own
 - Configurable color keys and special remote keys (requires the companion service below)
 
-![Diagnostics](docs/diagnostics.png)
+![Diagnostics](docs/en/diagnostics.png)
 
 ## Settings
 
