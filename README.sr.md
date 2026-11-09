@@ -53,7 +53,16 @@
 - Automatski dnevni backup kad ima izmena, čuva poslednjih 5 i kopira ih na USB ako je ubačen
 - Vraćanje na podrazumevana podešavanja
 
-![Backup i ažuriranja](docs/backup.png)
+![Backup](docs/backup.png)
+
+### Ažuriranja
+- Poseban meni u Podešavanjima, a otvara se i preko stavke O launcheru u meniju Sistem
+- Instalirana verzija se uvek vidi kod provere
+- Provera novih verzija na GitHub Releases, ručno ili automatski jednom dnevno
+- Šta je novo: lista promena iz opisa poslednjeg izdanja
+- Novi APK se proverava preko SHA-256 i potpisa, a instalira se samo kad potvrdiš
+
+![Ažuriranja](docs/updates.png)
 
 ### Izgled
 - Jednobojne i prelazne teme ili tvoje slike iz `/sdcard/Pictures/Pozadine`
@@ -70,7 +79,7 @@
 - Tajmer za spavanje, spavanje odmah i restart
 - Prečice do mreže i Android podešavanja
 - Bluetooth meni sa brzim uparivanjem
-- Provera novih verzija na GitHub Releases, sa listom promena; instalira se samo kad potvrdiš
+- Verzija launchera i naziv firmvera u meniju Sistem
 - Dijagnostika: firmware, vreme rada, memorija, temperatura, mreža, Bluetooth, USB i dozvole
 - Održava vezu sa uparenim Bluetooth LE daljinskim, za boxove čiji se BT čip sam ne povezuje ponovo
 - Tasteri u boji i posebni tasteri daljinskog po izboru (traži prateći servis, vidi ispod)
@@ -87,7 +96,7 @@
 | **Daljinski** | Tasteri u boji, tasteri EON daljinskog |
 | **Backup** | Čuvanje u internu memoriju ili na USB, automatski backup, vraćanje |
 | **Ažuriranja** | Instalirana verzija, provera novih verzija, automatska provera, Šta je novo |
-| **Sistem** | Napajanje, mreža, jezik, Android podešavanja, dijagnostika |
+| **Sistem** | Napajanje, mreža, jezik, Android podešavanja, dijagnostika, naziv firmvera |
 
 Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja.
 

@@ -53,7 +53,16 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Automatic daily backup when the configuration has changed, keeping the last 5, also copied to USB when one is inserted
 - Reset to defaults
 
-![Backup and updates](docs/backup.png)
+![Backup](docs/backup.png)
+
+### Updates
+- A dedicated menu in Settings, also reachable from About launcher in the System menu
+- The installed version is always shown next to the update check
+- Checks GitHub Releases for new versions, manually or automatically once a day
+- What's new: the list of changes from the latest release notes
+- A new APK is verified by SHA-256 and signature, and installed only after you confirm it
+
+![Updates](docs/updates.png)
 
 ### Look and feel
 - Solid and gradient themes, or your own wallpapers from `/sdcard/Pictures/Pozadine`
@@ -70,7 +79,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Sleep timer, sleep now and restart
 - Shortcuts to network and Android settings
 - Bluetooth menu with quick pairing
-- Update check against GitHub Releases, with a list of what is new; an update is installed only after you confirm it
+- Launcher version and firmware name in the System menu
 - Diagnostics screen: firmware, uptime, memory, storage, temperature, network, Bluetooth, USB and permissions
 - Keeps paired Bluetooth LE remotes connected, for boxes whose Bluetooth chip does not reconnect them on its own
 - Configurable color keys and special remote keys (requires the companion service below)
@@ -87,7 +96,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 | **Remote** | Color keys, EON remote keys |
 | **Backup** | Save to internal storage or USB, automatic backup, restore |
 | **Updates** | Installed version, update check, automatic check, what is new |
-| **System** | Power, network, language, Android settings, diagnostics |
+| **System** | Power, network, language, Android settings, diagnostics, firmware name |
 
 Profiles have their own icon on the home screen, next to Settings.
 
