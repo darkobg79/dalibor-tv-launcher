@@ -85,7 +85,8 @@
 | **Izgled** | Pozadina, dnevna i noćna tema, sjaj naslova, pozdrav, čuvar ekrana |
 | **Statistika i prognoza** | Statistika i njen prikaz, jedinica mreže, grad i stil prognoze |
 | **Daljinski** | Tasteri u boji, tasteri EON daljinskog |
-| **Backup i ažuriranja** | Čuvanje u internu memoriju ili na USB, automatski backup, vraćanje, ažuriranja |
+| **Backup** | Čuvanje u internu memoriju ili na USB, automatski backup, vraćanje |
+| **Ažuriranja** | Instalirana verzija, provera novih verzija, automatska provera, Šta je novo |
 | **Sistem** | Napajanje, mreža, jezik, Android podešavanja, dijagnostika |
 
 Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja.

@@ -85,7 +85,8 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 | **Appearance** | Wallpaper, day and night theme, title glow, greeting, screensaver |
 | **Stats and forecast** | Stats and how they look, network unit, forecast city and style |
 | **Remote** | Color keys, EON remote keys |
-| **Backup and updates** | Save to internal storage or USB, automatic backup, restore, updates |
+| **Backup** | Save to internal storage or USB, automatic backup, restore |
+| **Updates** | Installed version, update check, automatic check, what is new |
 | **System** | Power, network, language, Android settings, diagnostics |
 
 Profiles have their own icon on the home screen, next to Settings.
