@@ -2,6 +2,9 @@
 
 [![Downloads](https://img.shields.io/github/downloads/darkobg79/dalibor-tv-launcher/total?label=downloads)](https://github.com/darkobg79/dalibor-tv-launcher/releases)
 [![Latest release](https://img.shields.io/github/v/release/darkobg79/dalibor-tv-launcher?label=latest)](https://github.com/darkobg79/dalibor-tv-launcher/releases/latest)
+[![Released](https://img.shields.io/github/release-date/darkobg79/dalibor-tv-launcher?label=released)](https://github.com/darkobg79/dalibor-tv-launcher/releases/latest)
+![Android TV 8+](https://img.shields.io/badge/Android%20TV-8%2B-3DDC84?logo=android&logoColor=white)
+![No ads, no tracking](https://img.shields.io/badge/no%20ads-no%20tracking-success)
 
 A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account, no tracking.
 

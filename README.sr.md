@@ -2,6 +2,9 @@
 
 [![Preuzimanja](https://img.shields.io/github/downloads/darkobg79/dalibor-tv-launcher/total?label=preuzimanja)](https://github.com/darkobg79/dalibor-tv-launcher/releases)
 [![Poslednja verzija](https://img.shields.io/github/v/release/darkobg79/dalibor-tv-launcher?label=verzija)](https://github.com/darkobg79/dalibor-tv-launcher/releases/latest)
+[![Objavljeno](https://img.shields.io/github/release-date/darkobg79/dalibor-tv-launcher?label=objavljeno)](https://github.com/darkobg79/dalibor-tv-launcher/releases/latest)
+![Android TV 8+](https://img.shields.io/badge/Android%20TV-8%2B-3DDC84?logo=android&logoColor=white)
+![Bez reklama, bez praćenja](https://img.shields.io/badge/bez%20reklama-bez%20pra%C4%87enja-success)
 
 Čist početni ekran za Android TV boxove, u stilu Apple TV-a. Bez reklama, naloga i praćenja.
 
