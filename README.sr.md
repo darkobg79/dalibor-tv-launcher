@@ -1,5 +1,8 @@
 # dalibor.net launcher
 
+[![Preuzimanja](https://img.shields.io/github/downloads/darkobg79/dalibor-tv-launcher/total?label=preuzimanja)](https://github.com/darkobg79/dalibor-tv-launcher/releases)
+[![Poslednja verzija](https://img.shields.io/github/v/release/darkobg79/dalibor-tv-launcher?label=verzija)](https://github.com/darkobg79/dalibor-tv-launcher/releases/latest)
+
 Čist početni ekran za Android TV boxove, u stilu Apple TV-a. Bez reklama, naloga i praćenja.
 
 [English](README.md) · **Srpski**

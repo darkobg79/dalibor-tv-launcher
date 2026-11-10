@@ -1,5 +1,8 @@
 # dalibor.net launcher
 
+[![Downloads](https://img.shields.io/github/downloads/darkobg79/dalibor-tv-launcher/total?label=downloads)](https://github.com/darkobg79/dalibor-tv-launcher/releases)
+[![Latest release](https://img.shields.io/github/v/release/darkobg79/dalibor-tv-launcher?label=latest)](https://github.com/darkobg79/dalibor-tv-launcher/releases/latest)
+
 A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account, no tracking.
 
 **English** · [Srpski](README.sr.md)
