@@ -78,6 +78,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - English and Serbian interface, following the Android language or chosen manually
 - Sleep timer, sleep now and restart
 - Shortcuts to network and Android settings
+- Choose the default launcher, even on firmware that does not offer this option
 - Bluetooth menu with quick pairing
 - Launcher version and firmware name in the System menu
 - Diagnostics screen: firmware, uptime, memory, storage, temperature, network, Bluetooth, USB and permissions
@@ -96,7 +97,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 | **Remote** | Color keys, EON remote keys |
 | **Backup** | Save to internal storage or USB, automatic backup, restore |
 | **Updates** | Installed version, update check, automatic check, what is new |
-| **System** | Power, network, language, Android settings, diagnostics, firmware name |
+| **System** | Power, network, language, default launcher, Android settings, diagnostics, firmware name |
 
 Profiles have their own icon on the home screen, next to Settings.
 

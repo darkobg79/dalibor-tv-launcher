@@ -78,6 +78,7 @@
 - Interfejs na srpskom i engleskom, po jeziku Androida ili po izboru
 - Tajmer za spavanje, spavanje odmah i restart
 - Prečice do mreže i Android podešavanja
+- Izbor podrazumevanog launchera, i na firmverima koji tu opciju nemaju
 - Bluetooth meni sa brzim uparivanjem
 - Verzija launchera i naziv firmvera u meniju Sistem
 - Dijagnostika: firmware, vreme rada, memorija, temperatura, mreža, Bluetooth, USB i dozvole
@@ -96,7 +97,7 @@
 | **Daljinski** | Tasteri u boji, tasteri EON daljinskog |
 | **Backup** | Čuvanje u internu memoriju ili na USB, automatski backup, vraćanje |
 | **Ažuriranja** | Instalirana verzija, provera novih verzija, automatska provera, Šta je novo |
-| **Sistem** | Napajanje, mreža, jezik, Android podešavanja, dijagnostika, naziv firmvera |
+| **Sistem** | Napajanje, mreža, jezik, podrazumevani launcher, Android podešavanja, dijagnostika, naziv firmvera |
 
 Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja.
 
