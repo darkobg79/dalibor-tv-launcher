@@ -50,6 +50,19 @@
 
 ![Ikone profila](docs/profiles.png)
 
+### PIN zaštita
+- Jedan PIN od 4 do 8 cifara za ceo launcher, postavlja se u Profili → PIN zaštita
+- **Zaključan profil**: dok je ovaj profil aktivan, PIN traže Podešavanja, meni aplikacije, promena profila, mreža, Bluetooth i sakrivene aplikacije. Zgodno za profil „Deca“
+- **PIN za ulazak**: PIN se traži kada se ovaj profil izabere
+- U prozoru za PIN piše za koji profil se traži
+- Posle tačnog PIN-a launcher ostaje otključan 5 minuta, ili dok se ne otvori neka aplikacija
+- Posle pet pogrešnih pokušaja unos se pauzira 30 sekundi
+- PIN se čuva samo kao heš sa solju i nikad ne ulazi u backup. Ako se zaboravi, obrišu se podaci launchera i vrati backup
+
+![Zaključan profil](docs/pin-profile.png)
+
+![Prozor za PIN](docs/pin-dialog.png)
+
 ### Backup i vraćanje
 - Izvoz cele konfiguracije u ZIP jednim klikom, zajedno sa trenutnom pozadinom
 - Vraćanje iz interne memorije ili sa USB-a
@@ -105,7 +118,7 @@
 | **Ažuriranja** | Instalirana verzija, provera novih verzija, automatska provera, Šta je novo |
 | **Sistem** | Napajanje, mreža, jezik, podrazumevani launcher, Android podešavanja, dijagnostika, naziv firmvera |
 
-Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja.
+Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja. Tu se podešava i PIN zaštita.
 
 ## Instalacija
 

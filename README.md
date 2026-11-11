@@ -50,6 +50,19 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 ![Profile icons](docs/en/profiles.png)
 
+### PIN lock
+- One PIN of 4 to 8 digits for the whole launcher, set in Profiles → PIN lock
+- **Locked profile**: while this profile is active, Settings, the app menu, profile change, network, Bluetooth and hidden apps ask for the PIN. Handy for a "Kids" profile
+- **PIN to enter**: asks for the PIN when this profile is chosen
+- The PIN window shows which profile it is asked for
+- After the correct PIN the launcher stays unlocked for 5 minutes, or until an app is opened
+- Five wrong attempts pause input for 30 seconds
+- The PIN is stored only as a salted hash and is never included in backups. If it is forgotten, clear the launcher data and restore a backup
+
+![Locked profile](docs/en/pin-profile.png)
+
+![PIN window](docs/en/pin-dialog.png)
+
 ### Backup and restore
 - One-click export of the whole configuration to a ZIP file, including the current wallpaper
 - Restore from internal storage or USB
@@ -105,7 +118,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 | **Updates** | Installed version, update check, automatic check, what is new |
 | **System** | Power, network, language, default launcher, Android settings, diagnostics, firmware name |
 
-Profiles have their own icon on the home screen, next to Settings.
+Profiles have their own icon on the home screen, next to Settings. The PIN lock is set there as well.
 
 ## Installation
 
