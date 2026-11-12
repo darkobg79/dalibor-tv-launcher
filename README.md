@@ -19,7 +19,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 ### Home screen
 - Large clock, date and time-of-day greeting
-- Dock with 6 favorite apps, freely replaceable and reorderable
+- Dock with 6 favorite apps, or 12 in two rows (Settings → Home screen → Dock rows), freely replaceable and reorderable
 - Preview row above the dock, showing content published by the focused app
 - Continue Watching row, with the option to remove individual items
 - Status icons: weather, network, Bluetooth, active profile and settings
@@ -44,7 +44,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 ### Profiles
 - Local profiles such as "Mine", "Family" or "Kids"
-- Each profile has its own dock, app order, hidden apps and theme
+- Each profile has its own dock (and number of dock rows), app order, hidden apps and theme
 - Eight colored profile icons, always visible on the home screen
 - These are launcher profiles only: they are not Android users and do not separate accounts inside apps
 
@@ -110,7 +110,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 | Group | What you will find there |
 |---|---|
-| **Home screen** | Dock and app order, hidden apps, Preview, Continue watching |
+| **Home screen** | Dock and app order, dock rows (1 or 2), hidden apps, Preview, Continue watching |
 | **Appearance** | Wallpaper, day and night theme, title glow, greeting, screensaver |
 | **Stats and forecast** | Stats and how they look, network unit, forecast city and style |
 | **Remote** | Color keys, EON remote keys |

@@ -19,7 +19,7 @@
 
 ### Početni ekran
 - Veliki sat, datum i pozdrav prema dobu dana
-- Dock sa 6 omiljenih aplikacija, koje slobodno menjaš i premeštaš
+- Dock sa 6 omiljenih aplikacija, ili 12 u dva reda (Podešavanja → Početni ekran → Redovi docka), koje slobodno menjaš i premeštaš
 - Preview red iznad docka, sa sadržajem koji objavljuje aplikacija u fokusu
 - Red Nastavi gledanje, uz mogućnost uklanjanja pojedinačnih stavki
 - Ikone stanja: prognoza, mreža, Bluetooth, aktivni profil i podešavanja
@@ -44,7 +44,7 @@
 
 ### Profili
 - Lokalni profili, npr. „Moj“, „Porodica“ ili „Deca“
-- Svaki profil ima svoj dock, raspored, sakrivene aplikacije i temu
+- Svaki profil ima svoj dock (i broj redova docka), raspored, sakrivene aplikacije i temu
 - Osam ikona u boji, uvek vidljivih na početnom ekranu
 - Profili postoje samo u launcheru: nisu Android korisnici i ne razdvajaju naloge u aplikacijama
 
@@ -110,7 +110,7 @@
 
 | Grupa | Šta je u njoj |
 |---|---|
-| **Početni ekran** | Dock i redosled aplikacija, sakrivene aplikacije, Preview, Nastavi gledanje |
+| **Početni ekran** | Dock i redosled aplikacija, redovi docka (1 ili 2), sakrivene aplikacije, Preview, Nastavi gledanje |
 | **Izgled** | Pozadina, dnevna i noćna tema, sjaj naslova, pozdrav, čuvar ekrana |
 | **Statistika i prognoza** | Statistika i njen prikaz, jedinica mreže, grad i stil prognoze |
 | **Daljinski** | Tasteri u boji, tasteri EON daljinskog |
