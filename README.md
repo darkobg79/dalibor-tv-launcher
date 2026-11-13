@@ -28,6 +28,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 ### All apps
 - Grid of every installed app, using TV banners where available
+- Search tile at the start of the grid: filters apps while you type, with voice search when the box supports it
 - Sort alphabetically, by most used, or manually
 - Move mode that inserts a tile and shifts the others
 - Hide apps and restore them from a dedicated tile
@@ -97,6 +98,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - English and Serbian interface, following the Android language or chosen manually
 - Sleep timer, sleep now and restart
 - Shortcuts to network and Android settings
+- Free up memory: closes background apps outside the dock and shows how much RAM was freed
 - Choose the default launcher, even on firmware that does not offer this option
 - Bluetooth menu with quick pairing
 - Launcher version and firmware name in the System menu
@@ -116,7 +118,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 | **Remote** | Color keys, EON remote keys |
 | **Backup** | Save to internal storage or USB, automatic backup, restore |
 | **Updates** | Installed version, update check, automatic check, what is new |
-| **System** | Power, network, language, default launcher, Android settings, diagnostics, firmware name |
+| **System** | Power, network, language, default launcher, Android settings, free up memory, diagnostics, firmware name |
 
 Profiles have their own icon on the home screen, next to Settings. The PIN lock is set there as well.
 
@@ -145,6 +147,7 @@ Installed this way, the launcher works as a normal app. Some features need more:
 | Arrows | Move focus |
 | OK | Open |
 | Long-press OK | App menu |
+| Search | Search apps |
 | Back | Return to the dock, or go back in a menu |
 
 ## Privacy

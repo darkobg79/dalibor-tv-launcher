@@ -28,6 +28,7 @@
 
 ### Sve aplikacije
 - Mreža svih instaliranih aplikacija, sa TV pločicama gde postoje
+- Pločica „Pretraga“ na početku mreže: filtrira aplikacije dok kucaš, uz glasovnu pretragu kad je box podržava
 - Redosled abecedno, po korišćenju ili ručno
 - Režim premeštanja koji umeće pločicu i pomera ostale
 - Sakrivanje aplikacija i vraćanje preko posebne pločice
@@ -97,6 +98,7 @@
 - Interfejs na srpskom i engleskom, po jeziku Androida ili po izboru
 - Tajmer za spavanje, spavanje odmah i restart
 - Prečice do mreže i Android podešavanja
+- Očisti memoriju: zatvara aplikacije u pozadini van docka i pokazuje koliko je RAM-a oslobođeno
 - Izbor podrazumevanog launchera, i na firmverima koji tu opciju nemaju
 - Bluetooth meni sa brzim uparivanjem
 - Verzija launchera i naziv firmvera u meniju Sistem
@@ -116,7 +118,7 @@
 | **Daljinski** | Tasteri u boji, tasteri EON daljinskog |
 | **Backup** | Čuvanje u internu memoriju ili na USB, automatski backup, vraćanje |
 | **Ažuriranja** | Instalirana verzija, provera novih verzija, automatska provera, Šta je novo |
-| **Sistem** | Napajanje, mreža, jezik, podrazumevani launcher, Android podešavanja, dijagnostika, naziv firmvera |
+| **Sistem** | Napajanje, mreža, jezik, podrazumevani launcher, Android podešavanja, čišćenje memorije, dijagnostika, naziv firmvera |
 
 Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja. Tu se podešava i PIN zaštita.
 
@@ -145,6 +147,7 @@ Ovako instaliran, launcher radi kao obična aplikacija. Za neke mogućnosti treb
 | Strelice | Pomeranje fokusa |
 | OK | Otvaranje |
 | Držanje OK | Meni aplikacije |
+| Search | Pretraga aplikacija |
 | Back | Povratak na dock ili nazad u meniju |
 
 ## Privatnost
