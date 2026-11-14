@@ -12,17 +12,19 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 ![Home screen](docs/en/home.png)
 
-> The interface is available in English and Serbian.
+> The interface is available in 22 languages.
 > Tested on an Amlogic S905X3 box running Android TV 9. Other devices may work, but have not been tested.
 
 ## Features
 
 ### Home screen
-- Large clock, date and time-of-day greeting
+- Large clock (digital 24h, digital 12h or analog), date and time-of-day greeting
+- Focus frame in the theme color or one of seven colors of your choice
 - Dock with 6 favorite apps, or 12 in two rows (Settings → Home screen → Dock rows), freely replaceable and reorderable
 - Preview row above the dock, showing content published by the focused app
 - Continue Watching row, with the option to remove individual items
-- Status icons: weather, network, Bluetooth, active profile and settings
+- Status icons: weather, network, Bluetooth, active profile and settings, plus an optional Free up memory button
+- A dot on a dock app when it publishes something new in its Preview channels, and on Settings when a new launcher version is out
 - Network icon shows LAN or Wi-Fi and turns green when connected; Bluetooth turns blue when a device is connected
 - Optional system stats: RAM, CPU, temperature and network speed, with a selectable unit (auto, KB/s, MB/s, Mbit/s)
 
@@ -95,10 +97,10 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 ![Settings](docs/en/settings.png)
 
 ### System
-- English and Serbian interface, following the Android language or chosen manually
+- 22 interface languages, following the Android language or chosen manually: English, Serbian, Croatian, Bosnian, Slovenian, Macedonian, Albanian, Romanian, Slovak, Czech, German, French, Polish, Turkish, Greek, Spanish, Russian, Ukrainian, Portuguese, Hungarian, Bulgarian and Italian. Cyrillic and Greek use their own typeface
 - Sleep timer, sleep now and restart
 - Shortcuts to network and Android settings
-- Free up memory: closes background apps outside the dock and shows how much RAM was freed
+- Free up memory: closes background apps outside the dock and shows how much RAM was freed. Also available as a dock tile or a button at the top right
 - Choose the default launcher, even on firmware that does not offer this option
 - Bluetooth menu with quick pairing
 - Launcher version and firmware name in the System menu
@@ -113,7 +115,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 | Group | What you will find there |
 |---|---|
 | **Home screen** | Dock and app order, dock rows (1 or 2), hidden apps, Preview, Continue watching |
-| **Appearance** | Wallpaper, day and night theme, title glow, greeting, screensaver |
+| **Appearance** | Wallpaper, day and night theme, clock style, focus color, title glow, greeting, screensaver |
 | **Stats and forecast** | Stats and how they look, network unit, forecast city and style |
 | **Remote** | Color keys, EON remote keys |
 | **Backup** | Save to internal storage or USB, automatic backup, restore |
@@ -160,7 +162,7 @@ Free to use and to share unmodified. All rights reserved, see [LICENSE](LICENSE)
 
 ## Credits
 
-- [Outfit](https://fonts.google.com/specimen/Outfit) typeface, SIL Open Font License
+- [Outfit](https://fonts.google.com/specimen/Outfit) and [Geologica](https://fonts.google.com/specimen/Geologica) typefaces, SIL Open Font License
 - Weather data by [Open-Meteo](https://open-meteo.com/)
 
 App names and logos visible in the screenshots belong to their respective owners.

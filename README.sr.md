@@ -12,17 +12,19 @@
 
 ![Početni ekran](docs/home.png)
 
-> Interfejs je dostupan na srpskom i engleskom.
+> Interfejs je dostupan na 22 jezika.
 > Testirano na Amlogic S905X3 boxu sa Android TV 9. Na drugim uređajima može da radi, ali nije provereno.
 
 ## Mogućnosti
 
 ### Početni ekran
-- Veliki sat, datum i pozdrav prema dobu dana
+- Veliki sat (digitalni 24h, digitalni 12h ili analogni), datum i pozdrav prema dobu dana
+- Okvir fokusa u boji teme ili u jednoj od sedam boja po izboru
 - Dock sa 6 omiljenih aplikacija, ili 12 u dva reda (Podešavanja → Početni ekran → Redovi docka), koje slobodno menjaš i premeštaš
 - Preview red iznad docka, sa sadržajem koji objavljuje aplikacija u fokusu
 - Red Nastavi gledanje, uz mogućnost uklanjanja pojedinačnih stavki
-- Ikone stanja: prognoza, mreža, Bluetooth, aktivni profil i podešavanja
+- Ikone stanja: prognoza, mreža, Bluetooth, aktivni profil i podešavanja, uz opciono dugme Očisti memoriju
+- Tačka na aplikaciji u docku kad objavi nešto novo u Preview kanalu, i na Podešavanjima kad izađe nova verzija launchera
 - Ikona mreže prikazuje LAN ili Wi-Fi i zelena je kad je povezano; Bluetooth je plav kad je uređaj povezan
 - Statistika po izboru: RAM, CPU, temperatura i brzina mreže, sa izborom jedinice (automatski, KB/s, MB/s, Mbit/s)
 
@@ -95,10 +97,10 @@
 ![Podešavanja](docs/settings.png)
 
 ### Sistem
-- Interfejs na srpskom i engleskom, po jeziku Androida ili po izboru
+- 22 jezika interfejsa, po jeziku Androida ili po izboru: srpski, engleski, hrvatski, bosanski, slovenački, makedonski, albanski, rumunski, slovački, češki, nemački, francuski, poljski, turski, grčki, španski, ruski, ukrajinski, portugalski, mađarski, bugarski i italijanski. Ćirilica i grčko pismo imaju svoj font
 - Tajmer za spavanje, spavanje odmah i restart
 - Prečice do mreže i Android podešavanja
-- Očisti memoriju: zatvara aplikacije u pozadini van docka i pokazuje koliko je RAM-a oslobođeno
+- Očisti memoriju: zatvara aplikacije u pozadini van docka i pokazuje koliko je RAM-a oslobođeno. Dostupno i kao pločica u docku ili dugme gore desno
 - Izbor podrazumevanog launchera, i na firmverima koji tu opciju nemaju
 - Bluetooth meni sa brzim uparivanjem
 - Verzija launchera i naziv firmvera u meniju Sistem
@@ -113,7 +115,7 @@
 | Grupa | Šta je u njoj |
 |---|---|
 | **Početni ekran** | Dock i redosled aplikacija, redovi docka (1 ili 2), sakrivene aplikacije, Preview, Nastavi gledanje |
-| **Izgled** | Pozadina, dnevna i noćna tema, sjaj naslova, pozdrav, čuvar ekrana |
+| **Izgled** | Pozadina, dnevna i noćna tema, stil sata, boja fokusa, sjaj naslova, pozdrav, čuvar ekrana |
 | **Statistika i prognoza** | Statistika i njen prikaz, jedinica mreže, grad i stil prognoze |
 | **Daljinski** | Tasteri u boji, tasteri EON daljinskog |
 | **Backup** | Čuvanje u internu memoriju ili na USB, automatski backup, vraćanje |
@@ -160,7 +162,7 @@ Besplatno za korišćenje i deljenje u neizmenjenom obliku. Sva prava zadržana,
 
 ## Zasluge
 
-- Font [Outfit](https://fonts.google.com/specimen/Outfit), SIL Open Font License
+- Fontovi [Outfit](https://fonts.google.com/specimen/Outfit) i [Geologica](https://fonts.google.com/specimen/Geologica), SIL Open Font License
 - Podaci o vremenu: [Open-Meteo](https://open-meteo.com/)
 
 Nazivi i logotipi aplikacija na slikama pripadaju njihovim vlasnicima.
