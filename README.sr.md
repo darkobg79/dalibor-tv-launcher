@@ -21,16 +21,17 @@
 - Veliki sat (digitalni 24h, digitalni 12h ili analogni), datum i pozdrav prema dobu dana
 - Okvir fokusa u boji teme ili u jednoj od sedam boja po izboru
 - Dock sa 6 omiljenih aplikacija, ili 12 u dva reda (Podešavanja → Početni ekran → Redovi docka), koje slobodno menjaš i premeštaš
-- Preview red iznad docka, sa sadržajem koji objavljuje aplikacija u fokusu
-- Red Nastavi gledanje, uz mogućnost uklanjanja pojedinačnih stavki
+- Preview red iznad docka, sa sadržajem koji objavljuje aplikacija u fokusu. Kad aplikacija nema Preview, red može da prikaže sliku iz Pozadina
+- Red Nastavi gledanje, uz mogućnost uklanjanja pojedinačnih stavki; uklonjene se vraćaju jednim klikom
 - Ikone stanja: prognoza, mreža, Bluetooth, aktivni profil i podešavanja, uz opciono dugme Očisti memoriju
-- Tačka na aplikaciji u docku kad objavi nešto novo u Preview kanalu, i na Podešavanjima kad izađe nova verzija launchera
+- Tačka na aplikaciji u docku kad objavi nešto novo u Preview kanalu (može da se isključi), i na Podešavanjima kad izađe nova verzija launchera
+- Dugme Ulazi za HDMI i druge TV ulaze, kad ih box ima
 - Ikona mreže prikazuje LAN ili Wi-Fi i zelena je kad je povezano; Bluetooth je plav kad je uređaj povezan
-- Statistika po izboru: RAM, CPU, temperatura i brzina mreže, sa izborom jedinice (automatski, KB/s, MB/s, Mbit/s)
+- Statistika po izboru: RAM, CPU, temperatura i brzina mreže, sa izborom jedinice (automatski, KB/s, MB/s, Mbit/s), u okviru ili bez njega
 
 ### Sve aplikacije
 - Mreža svih instaliranih aplikacija, sa TV pločicama gde postoje
-- Pločica „Pretraga“ na početku mreže: filtrira aplikacije dok kucaš, uz glasovnu pretragu kad je box podržava
+- Pločica „Pretraga“ na početku mreže i taster Search: filtrira dok kucaš, i aplikacije iz docka, bez obzira na kvačice. Mikrofon pored polja ili držanje OK na pločici pokreće glasovnu pretragu, kad je box podržava
 - Redosled abecedno, po korišćenju ili ručno
 - Režim premeštanja koji umeće pločicu i pomera ostale
 - Sakrivanje aplikacija i vraćanje preko posebne pločice
@@ -40,7 +41,7 @@
 
 ### Vremenska prognoza
 - Trenutno vreme, naredna 24 sata i 7 dana
-- Izbor grada i tri stila kartice
+- Izbor grada i tri stila kartice: boje vremena, boje izabrane pozadine ili bez boja
 - Podaci sa [Open-Meteo](https://open-meteo.com/) servisa, bez naloga i API ključa
 
 ![Vremenska prognoza](docs/weather.png)
@@ -49,6 +50,7 @@
 - Lokalni profili, npr. „Moj“, „Porodica“ ili „Deca“
 - Svaki profil ima svoj dock (i broj redova docka), raspored, sakrivene aplikacije i temu
 - Osam ikona u boji, uvek vidljivih na početnom ekranu
+- Novi profil kreće kao kopija trenutnog; profil može da se preimenuje i dobije drugu ikonu
 - Profili postoje samo u launcheru: nisu Android korisnici i ne razdvajaju naloge u aplikacijama
 
 ![Ikone profila](docs/profiles.png)
@@ -83,13 +85,14 @@
 - Provera novih verzija na GitHub Releases, ručno ili automatski jednom dnevno
 - Šta je novo: lista promena iz opisa poslednjeg izdanja
 - Novi APK se proverava preko SHA-256 i potpisa, a instalira se samo kad potvrdiš
+- Tihe instalacije, bez sistemskog prozora, kad je launcher instaliran kao sistemska aplikacija
 
 ![Ažuriranja](docs/updates.png)
 
 ### Izgled
 - Jednobojne i prelazne teme ili tvoje slike iz `/sdcard/Pictures/Pozadine`
 - Automatska dnevna i noćna tema, sa izborom sati; ručno izabrana tema važi do sledeće promene
-- Ugrađen čuvar ekrana sa satom, prognozom i smenom pozadina
+- Ugrađen čuvar ekrana sa satom, prognozom i smenom pozadina; izbor čuvara, vreme do pokretanja i proba
 - Meniji u bočnom panelu, sa sekcijama, putanjom, ikonama i prekidačima
 
 ![Dan/noć tema](docs/daynight.png)
@@ -97,16 +100,19 @@
 ![Podešavanja](docs/settings.png)
 
 ### Sistem
-- 22 jezika interfejsa, po jeziku Androida ili po izboru: srpski, engleski, hrvatski, bosanski, slovenački, makedonski, albanski, rumunski, slovački, češki, nemački, francuski, poljski, turski, grčki, španski, ruski, ukrajinski, portugalski, mađarski, bugarski i italijanski. Ćirilica i grčko pismo imaju svoj font
+- 22 jezika interfejsa, po jeziku Androida ili po izboru: srpski, engleski, hrvatski, bosanski, slovenački, makedonski, albanski, rumunski, slovački, češki, nemački, francuski, poljski, turski, grčki, španski, ruski, ukrajinski, portugalski, mađarski, bugarski i italijanski. Ćirilica i grčko pismo imaju svoj font, a datum je u obliku izabranog jezika
 - Tajmer za spavanje, spavanje odmah i restart
-- Prečice do mreže i Android podešavanja
+- Prečice do mreže, Android podešavanja i Android liste svih aplikacija
 - Očisti memoriju: zatvara aplikacije u pozadini van docka i pokazuje koliko je RAM-a oslobođeno. Dostupno i kao pločica u docku ili dugme gore desno
 - Izbor podrazumevanog launchera, i na firmverima koji tu opciju nemaju
 - Bluetooth meni sa brzim uparivanjem
 - Verzija launchera i naziv firmvera u meniju Sistem
 - Dijagnostika: firmware, vreme rada, memorija, temperatura, mreža, Bluetooth, USB i dozvole
 - Održava vezu sa uparenim Bluetooth LE daljinskim, za boxove čiji se BT čip sam ne povezuje ponovo
-- Tasteri u boji i posebni tasteri daljinskog po izboru (traži prateći servis, vidi ispod)
+- Tasteri u boji i posebni tasteri daljinskog po izboru (traži prateći servis, vidi ispod):
+  - svaki taster otvara aplikaciju, link, Laki programsku šemu, Laki kanal po imenu (npr. RTS 1) ili Sve aplikacije
+  - pametni režim: u plejeru taster radi svoju medijsku funkciju, a van plejera otvara izabrano
+  - tasteri EON daljinskog: EON Home, Lista TV kanala, Video klub, Radio, Aplikacije
 
 ![Dijagnostika](docs/diagnostics.png)
 
@@ -114,15 +120,15 @@
 
 | Grupa | Šta je u njoj |
 |---|---|
-| **Početni ekran** | Dock i redosled aplikacija, redovi docka (1 ili 2), sakrivene aplikacije, Preview, Nastavi gledanje |
+| **Početni ekran** | Dock i redosled aplikacija, redovi docka (1 ili 2), sakrivene aplikacije, pločica i dugme Očisti, oznaka novog sadržaja, Preview, Nastavi gledanje |
 | **Izgled** | Pozadina, dnevna i noćna tema, stil sata, boja fokusa, sjaj naslova, pozdrav, čuvar ekrana |
-| **Statistika i prognoza** | Statistika i njen prikaz, jedinica mreže, grad i stil prognoze |
-| **Daljinski** | Tasteri u boji, tasteri EON daljinskog |
+| **Statistika i prognoza** | Statistika i njen prikaz, jedinica mreže, okvir statistike, grad i stil prognoze |
+| **Daljinski** | Tasteri u boji (sa pametnim režimom), tasteri EON daljinskog |
 | **Backup** | Čuvanje u internu memoriju ili na USB, automatski backup, vraćanje |
 | **Ažuriranja** | Instalirana verzija, provera novih verzija, automatska provera, Šta je novo |
-| **Sistem** | Napajanje, mreža, jezik, podrazumevani launcher, Android podešavanja, čišćenje memorije, dijagnostika, naziv firmvera |
+| **Sistem** | Napajanje, mreža, jezik, podrazumevani launcher, Android (podešavanja i lista aplikacija), čišćenje memorije, dijagnostika, O launcheru, naziv firmvera |
 
-Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja. Tu se podešava i PIN zaštita.
+Profili imaju svoju ikonu na početnom ekranu, pored Podešavanja. Tu se prave, preimenuju i brišu profili, bira ikona i podešava PIN zaštita.
 
 ## Instalacija
 
@@ -142,13 +148,36 @@ Ovako instaliran, launcher radi kao obična aplikacija. Za neke mogućnosti treb
 | Spavanje odmah i tajmer | `adb shell dpm set-active-admin net.dalibor.home/.SleepAdmin` |
 | Tasteri u boji i posebni tasteri | Root servis za tastere na boxu, koji nije deo ovog APK-a |
 
+### Sistemska instalacija
+
+Na testiranom boxu launcher je sistemski instaliran ovako:
+
+- APK u `/system/priv-app/DaliborHome/`
+- dozvole u `/system/etc/permissions/privapp-permissions-dalibor.xml`:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="net.dalibor.home">
+        <permission name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>
+```
+
+Za to treba root ili firmver koji dozvoljava upis u `/system`. Na firmverima koji strogo proveravaju sistemske dozvole, bez ovog XML fajla box se ne bi pokrenuo.
+
 ## Daljinski
 
 | Taster | Radnja |
 |---|---|
 | Strelice | Pomeranje fokusa |
 | OK | Otvaranje |
-| Držanje OK | Meni aplikacije |
+| Držanje OK ili Menu | Meni aplikacije |
+| Držanje OK na pločici Pretraga | Glasovna pretraga |
 | Search | Pretraga aplikacija |
 | Back | Povratak na dock ili nazad u meniju |
 

@@ -21,16 +21,17 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Large clock (digital 24h, digital 12h or analog), date and time-of-day greeting
 - Focus frame in the theme color or one of seven colors of your choice
 - Dock with 6 favorite apps, or 12 in two rows (Settings → Home screen → Dock rows), freely replaceable and reorderable
-- Preview row above the dock, showing content published by the focused app
-- Continue Watching row, with the option to remove individual items
+- Preview row above the dock, showing content published by the focused app. When an app has no Preview, the row can show an image from your wallpapers
+- Continue Watching row, with the option to remove individual items; removed items come back with one click
 - Status icons: weather, network, Bluetooth, active profile and settings, plus an optional Free up memory button
-- A dot on a dock app when it publishes something new in its Preview channels, and on Settings when a new launcher version is out
+- A dot on a dock app when it publishes something new in its Preview channels (can be turned off), and on Settings when a new launcher version is out
+- Inputs button for HDMI and other TV inputs, when the box has them
 - Network icon shows LAN or Wi-Fi and turns green when connected; Bluetooth turns blue when a device is connected
-- Optional system stats: RAM, CPU, temperature and network speed, with a selectable unit (auto, KB/s, MB/s, Mbit/s)
+- Optional system stats: RAM, CPU, temperature and network speed, with a selectable unit (auto, KB/s, MB/s, Mbit/s), with or without a frame
 
 ### All apps
 - Grid of every installed app, using TV banners where available
-- Search tile at the start of the grid: filters apps while you type, with voice search when the box supports it
+- Search tile at the start of the grid and the Search key: filters while you type, includes dock apps and ignores accents. The microphone next to the field, or long-pressing OK on the tile, starts voice search when the box supports it
 - Sort alphabetically, by most used, or manually
 - Move mode that inserts a tile and shifts the others
 - Hide apps and restore them from a dedicated tile
@@ -40,7 +41,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 ### Weather
 - Current conditions, next 24 hours and 7-day forecast
-- Selectable city and three card styles
+- Selectable city and three card styles: weather colors, wallpaper colors or no colors
 - Data from [Open-Meteo](https://open-meteo.com/), with no account or API key
 
 ![Weather forecast](docs/en/weather.png)
@@ -49,6 +50,7 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Local profiles such as "Mine", "Family" or "Kids"
 - Each profile has its own dock (and number of dock rows), app order, hidden apps and theme
 - Eight colored profile icons, always visible on the home screen
+- A new profile starts as a copy of the current one; profiles can be renamed and given another icon
 - These are launcher profiles only: they are not Android users and do not separate accounts inside apps
 
 ![Profile icons](docs/en/profiles.png)
@@ -83,13 +85,14 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 - Checks GitHub Releases for new versions, manually or automatically once a day
 - What's new: the list of changes from the latest release notes
 - A new APK is verified by SHA-256 and signature, and installed only after you confirm it
+- Silent installs, without a system prompt, when the launcher is installed as a system app
 
 ![Updates](docs/en/updates.png)
 
 ### Look and feel
 - Solid and gradient themes, or your own wallpapers from `/sdcard/Pictures/Pozadine`
 - Automatic day and night themes with selectable hours; a manually chosen theme stays until the next change
-- Built-in screensaver with clock, weather and rotating wallpapers
+- Built-in screensaver with clock, weather and rotating wallpapers; choose the screensaver, when it starts, and try it right away
 - Side panel menus with sections, breadcrumbs, icons and switches
 
 ![Day and night theme](docs/en/daynight.png)
@@ -97,16 +100,19 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 ![Settings](docs/en/settings.png)
 
 ### System
-- 22 interface languages, following the Android language or chosen manually: English, Serbian, Croatian, Bosnian, Slovenian, Macedonian, Albanian, Romanian, Slovak, Czech, German, French, Polish, Turkish, Greek, Spanish, Russian, Ukrainian, Portuguese, Hungarian, Bulgarian and Italian. Cyrillic and Greek use their own typeface
+- 22 interface languages, following the Android language or chosen manually: English, Serbian, Croatian, Bosnian, Slovenian, Macedonian, Albanian, Romanian, Slovak, Czech, German, French, Polish, Turkish, Greek, Spanish, Russian, Ukrainian, Portuguese, Hungarian, Bulgarian and Italian. Cyrillic and Greek use their own typeface, and the date follows the chosen language
 - Sleep timer, sleep now and restart
-- Shortcuts to network and Android settings
+- Shortcuts to network settings, Android settings and the Android list of all apps
 - Free up memory: closes background apps outside the dock and shows how much RAM was freed. Also available as a dock tile or a button at the top right
 - Choose the default launcher, even on firmware that does not offer this option
 - Bluetooth menu with quick pairing
 - Launcher version and firmware name in the System menu
 - Diagnostics screen: firmware, uptime, memory, storage, temperature, network, Bluetooth, USB and permissions
 - Keeps paired Bluetooth LE remotes connected, for boxes whose Bluetooth chip does not reconnect them on its own
-- Configurable color keys and special remote keys (requires the companion service below)
+- Configurable color keys and special remote keys (requires the companion service below):
+  - each key opens an app, a link, the Laki TV guide, a Laki channel by name (e.g. RTS 1) or All apps
+  - smart mode: in a player the key keeps its media function, elsewhere it opens your choice
+  - EON remote keys: EON Home, TV channel list, Video club, Radio, Apps
 
 ![Diagnostics](docs/en/diagnostics.png)
 
@@ -114,15 +120,15 @@ A clean, Apple TV inspired home screen for Android TV boxes. No ads, no account,
 
 | Group | What you will find there |
 |---|---|
-| **Home screen** | Dock and app order, dock rows (1 or 2), hidden apps, Preview, Continue watching |
+| **Home screen** | Dock and app order, dock rows (1 or 2), hidden apps, Free up memory tile and button, new content badge, Preview, Continue watching |
 | **Appearance** | Wallpaper, day and night theme, clock style, focus color, title glow, greeting, screensaver |
-| **Stats and forecast** | Stats and how they look, network unit, forecast city and style |
-| **Remote** | Color keys, EON remote keys |
+| **Stats and forecast** | Stats and how they look, network unit, stats frame, forecast city and style |
+| **Remote** | Color keys (with smart mode), EON remote keys |
 | **Backup** | Save to internal storage or USB, automatic backup, restore |
 | **Updates** | Installed version, update check, automatic check, what is new |
-| **System** | Power, network, language, default launcher, Android settings, free up memory, diagnostics, firmware name |
+| **System** | Power, network, language, default launcher, Android (settings and app list), free up memory, diagnostics, About launcher, firmware name |
 
-Profiles have their own icon on the home screen, next to Settings. The PIN lock is set there as well.
+Profiles have their own icon on the home screen, next to Settings. That is where you create, rename and delete profiles, pick their icon and set the PIN lock.
 
 ## Installation
 
@@ -142,13 +148,36 @@ Installed this way, the launcher works as a normal app. Some features need more:
 | Sleep now and sleep timer | `adb shell dpm set-active-admin net.dalibor.home/.SleepAdmin` |
 | Color keys and special remote keys | A root key service on the box, which is not part of this APK |
 
+### System installation
+
+On the tested box the launcher is installed as a system app like this:
+
+- the APK in `/system/priv-app/DaliborHome/`
+- permissions in `/system/etc/permissions/privapp-permissions-dalibor.xml`:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="net.dalibor.home">
+        <permission name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>
+```
+
+This needs root or firmware that allows writing to `/system`. On firmware that strictly checks system permissions, the box would not boot without this XML file.
+
 ## Remote control
 
 | Key | Action |
 |---|---|
 | Arrows | Move focus |
 | OK | Open |
-| Long-press OK | App menu |
+| Long-press OK or Menu | App menu |
+| Long-press OK on the Search tile | Voice search |
 | Search | Search apps |
 | Back | Return to the dock, or go back in a menu |
 
